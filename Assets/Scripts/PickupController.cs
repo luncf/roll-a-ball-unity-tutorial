@@ -23,8 +23,8 @@ public class PickupController : MonoBehaviour
 
         numObjects = rng.Next(minNumObjects, maxNumObjects);
         Vector3 bounds = ground.GetComponent<Collider>().bounds.size;
-        bounds[0] -= ((2 * wallOffset) - 2);
-        bounds[2] -= ((2 * wallOffset) - 2);
+        bounds[0] -= ((2 * wallOffset) + 2);
+        bounds[2] -= ((2 * wallOffset) + 2);
 
         for (int count = 0; count < numObjects; count++)
         {
