@@ -28,13 +28,13 @@ public class PlayerController : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.gameObject.CompareTag("pickup"))
+        if (other.gameObject.CompareTag("rubiksCube"))
         {
             other.gameObject.SetActive(false);
 
-            PickupController pickupController = other.gameObject.transform.parent.gameObject.GetComponent<PickupController>();
-            pickupController.DestroyObject();
-            if (!pickupController.HasRemainingObject())
+            RubiksCubeController rubiksCubeController = other.gameObject.transform.parent.gameObject.GetComponent<RubiksCubeController>();
+            rubiksCubeController.DestroyObject();
+            if (!rubiksCubeController.HasRemainingObject())
             {
                 winText.text = "You win!";
             }

@@ -1023,7 +1023,7 @@ GameObject:
   - component: {fileID: 1665290838}
   - component: {fileID: 1665290839}
   m_Layer: 0
-  m_Name: Pickups
+  m_Name: RubiksCubes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1056,11 +1056,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   minNumObjects: 5
-  maxNumObjects: 20
-  pickupPrefab: {fileID: 4215249835229401007, guid: 18e1f020c932c4c5e8b33e113db592c3,
+  maxNumObjects: 10
+  rubiksCubePrefab: {fileID: 9209544059237263626, guid: 9ea653635dc7d40bca9d9b35e1482cd6,
     type: 3}
   ground: {fileID: 1244120721}
-  wallOffset: 0.25
+  wallOffset: 0.5
   remainingPickupText: {fileID: 1586736027}
 --- !u!1 &1702467122
 GameObject:
@@ -1113,7 +1113,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
+  - {fileID: 2100000, guid: 087b76ee0f3b940f7b7a3f28207fa9f5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

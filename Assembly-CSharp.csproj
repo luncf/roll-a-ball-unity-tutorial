@@ -61,9 +61,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\CameraController.cs" />
-    <Compile Include="Assets\Scripts\PickupController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\Rotator.cs" />
+    <Compile Include="Assets\Scripts\RubiksCubeController.cs" />
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>/Users/Andy/Desktop/Unity/Roll a Ball/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>

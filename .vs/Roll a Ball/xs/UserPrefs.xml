@@ -1,10 +1,9 @@
 ﻿<Properties StartupConfiguration="{8F0A54F0-5A0E-B6A5-A79C-E691566A2314}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/PickupController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/RubiksCubeController.cs">
     <Files>
-      <File FileName="Assets/Scripts/PlayerController.cs" Line="33" Column="46" />
       <File FileName="Assets/Scripts/CameraController.cs" Line="22" Column="1" />
-      <File FileName="Assets/Scripts/Rotator.cs" Line="6" Column="2" />
-      <File FileName="Assets/Scripts/PickupController.cs" Line="27" Column="41" />
+      <File FileName="Assets/Scripts/Rotator.cs" Line="10" Column="43" />
+      <File FileName="Assets/Scripts/RubiksCubeController.cs" Line="45" Column="14" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
